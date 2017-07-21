@@ -233,6 +233,9 @@ h2 small a{
 .col-text-height {/* 故事文字上邊距 */
 	padding-top:60px;
 }
+.img-border{
+	border: 4px solid #fff;
+}
 .delplr {
 	padding-left: 0px;
 	padding-right: 0px;
