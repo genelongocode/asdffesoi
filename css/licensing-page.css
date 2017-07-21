@@ -241,50 +241,50 @@ h2 small a{
     padding: 50px 0;
 	color:#440;
 	background:url(../img/licensing/c-s-bg1.jpg) no-repeat top center;
-	background-size: cover;
-	background-color: #ffdd8a;
+	/* background-size: cover; */
+	background-color: #fff7bc;
 }
 .content-section-bg2{/* Takonia BG */
     padding: 50px 0;
 	color:#FFF;
 	background:url(../img/licensing/c-s-bg2.jpg) no-repeat top center;
-	background-size: cover;
-	background-color: #ffdd8a;
+	/* background-size: cover; */
+	background-color: #c9e171;
 }
 .content-section-bg3{/* Dube BG */
     padding: 50px 0;
 	color:#666666;
 	background:url(../img/licensing/c-s-bg3.jpg) no-repeat top center;
-	background-size: cover;
-	background-color: #ffdd8a;
+	/* background-size: cover; */
+	background-color: #f7f7f7;
 }
 .content-section-bg4{/* Haba BG */
     padding: 50px 0;
 	color:#960;
 	background:url(../img/licensing/c-s-bg4.jpg) no-repeat top center;
-	background-size: cover;
-	background-color: #ffdd8a;
+	/* background-size: cover; */
+	background-color: #ffe4ac;
 }
 .content-section-bg5{/* Halu BG */
     padding: 50px 0;
 	color:#FFFFFF;
 	background:url(../img/licensing/c-s-bg5.jpg) no-repeat top center;
-	background-size: cover;
-	background-color: #ffdd8a;
+	/* background-size: cover; */
+	background-color: #61dff6;
 }
 .content-section-bg6{/* Kulo BG */
     padding: 50px 0;
 	color:#666666;
 	background:url(../img/licensing/c-s-bg6.jpg) no-repeat top center;
-	background-size: cover;
-	background-color: #ffdd8a;
+	/* background-size: cover; */
+	background-color: #fff;
 }
 .content-section-bg7{/* Kube BG */
     padding: 50px 0;
 	color:#FFF;
 	background:url(../img/licensing/c-s-bg7.jpg) no-repeat top center;
-	background-size: cover;
-	background-color: #ffdd8a;
+	/* background-size: cover; */
+	background-color: #f861ee;
 }
 
 p.glpblock{
