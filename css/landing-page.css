@@ -241,7 +241,7 @@ h2 small a{
     padding: 50px 0;
 	color:#960;
 	background:url(../img/c-s-bg1.jpg) no-repeat top center;
-	background-size: cover;
+	/* background-size: cover; */
 	background-color: #ffdd8a;
 }
 .content-section-bg2{/* Takonia BG */
