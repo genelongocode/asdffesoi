@@ -290,7 +290,7 @@ h2 small a{
     padding: 50px 0;
 	color:#FFF;
 	background:url(../img/c-s-bg8.jpg) no-repeat top center;
-	background-size: cover;
+	/* background-size: cover; */
 	background-color: #ffdd8a;
 }
 
