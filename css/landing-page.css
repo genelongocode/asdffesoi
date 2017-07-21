@@ -1,0 +1,352 @@
+/*!
+ * Start Bootstrap - Landing Page Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family:"Roboto Slab", "Helvetica Neue", Helvetica, Arial, "Microsoft YaHei", sans-serif, "Heiti SC light", "Droid Sans";
+    font-weight: 700;
+}
+
+.bottomnav {
+    font-size: 14px; 
+}
+
+.lead {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.intro-header {
+    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 50px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url(../img/intro-bg.jpg) no-repeat bottom center;
+    background-size: cover;
+}
+
+.intro-message {
+    position: relative;
+    padding-top: 30%;
+    padding-bottom: 20%;
+}
+
+.intro-message > h1 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 8em;
+}
+
+.intro-divider {
+    width: 400px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.intro-message > h3 {
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+}
+
+@media(max-width:767px) {
+    .intro-message {
+        padding-bottom: 15%;
+    }
+
+    .intro-message > h1 {
+        font-size: 6em;
+    }
+
+    ul.intro-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.intro-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+	
+    .intro-divider {
+        width: 100%;
+    }
+}
+
+.network-name {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.content-section-a {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+}
+
+.content-section-b {
+    padding: 50px 0;
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.section-heading {
+    margin-bottom: 30px;
+}
+
+.section-heading-spacer {
+    float: left;
+    width: 200px;
+    border-top: 3px solid #e7e7e7;
+}
+
+.banner {
+    padding: 60px 0;
+    color: #f8f8f8;
+    background: url(../img/banner-bg.jpg) no-repeat bottom center;
+    background-size: cover;
+}
+
+.banner h2 {
+    margin: 0;
+    /*text-shadow: 2px 2px 3px rgba(0,0,0,0.6);*/
+    font-size: 3em;
+}
+
+.banner ul {
+    margin-bottom: 0;
+}
+
+.banner-social-buttons {
+    float: right;
+    margin-top: 0;
+}
+
+@media(max-width:1199px) {
+    ul.banner-social-buttons {
+        float: left;
+        margin-top: 15px;
+    }
+}
+
+@media(max-width:767px) {
+
+.intro-header {
+    padding-top: 120px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 50px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url(../img/intro-bg.jpg) no-repeat bottom center;
+    background-size: cover;
+}
+	
+    .banner h2 {
+        margin: 0;
+        /*text-shadow: 2px 2px 3px rgba(0,0,0,0.6);*/
+        font-size: 3em;
+    }
+
+    ul.banner-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.banner-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+}
+
+footer {
+    padding: 50px 0;
+    background-color: #FAFAFA;
+}
+
+p.copyright {
+	font-size: 14px;
+	font-weight: 400;
+	color: #666;
+}
+p.copyright a {
+	font-size: 14px;
+	font-weight: 400;
+}
+
+/*---------------------- add code ----------------------*/
+.text-muted{
+}
+.text-muted a{
+}
+.text-muted a:hover{
+}
+/*---------------------- change code ----------------------*/
+.btn-lg, .btn-group-lg > .btn {
+	font-size: 14px;
+}
+p.lead {
+	/*line-height: 1.52em;*/
+}
+.img-center {
+	margin: 0 auto;
+}
+/*---------------------- add code ----------------------*/
+h2 small{
+	margin-left:16px;
+}
+h2 small a{
+	font:Arial, Helvetica, Tahoma, Geneva, sans-serif;
+	color:#333;
+	font-size:14px;
+}
+.lead-small {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.navbar-default {
+	/*background-color: rgba(256,256,256,0);*//* IE9、标准浏览器、IE6和部分IE7内核的浏览器(如QQ浏览器)会读懂 */
+    /*border-color: transparent;*/
+	background-color:#fff;
+	border-color:#F4F4F4;
+	box-shadow: 0 1px 3px rgba(0,0,0,.06);
+}
+.navbar-default .navbar-brand {
+	color: #000;
+}
+.navbar-default .navbar-brand:hover {
+	color: #000;
+}
+
+.col-text-height {/* 故事文字上邊距 */
+	padding-top:60px;
+}
+.delplr {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.content-section-bg1{/* 第一個部分背景 */
+    padding: 50px 0;
+	color:#960;
+	background:url(../img/c-s-bg1.jpg) no-repeat top center;
+	background-size: cover;
+	background-color: #ffdd8a;
+}
+.content-section-bg2{/* Takonia BG */
+    padding: 50px 0;
+	color:#FFF;
+	background:url(../img/c-s-bg2.jpg) no-repeat top center;
+	background-size: cover;
+	background-color: #ffdd8a;
+}
+.content-section-bg3{/* Dube BG */
+    padding: 50px 0;
+	color:#FFF;
+	background:url(../img/c-s-bg3.jpg) no-repeat top center;
+	background-size: cover;
+	background-color: #ffdd8a;
+}
+.content-section-bg4{/* Haba BG */
+    padding: 50px 0;
+	color:#960;
+	background:url(../img/c-s-bg4.jpg) no-repeat top center;
+	background-size: cover;
+	background-color: #ffdd8a;
+}
+.content-section-bg5{/* Halu BG */
+    padding: 50px 0;
+	color:#960;
+	background:url(../img/c-s-bg5.jpg) no-repeat top center;
+	background-size: cover;
+	background-color: #ffdd8a;
+}
+.content-section-bg6{/* Kulo BG */
+    padding: 50px 0;
+	color:#FFF;
+	background:url(../img/c-s-bg6.jpg) no-repeat top center;
+	background-size: cover;
+	background-color: #ffdd8a;
+}
+.content-section-bg7{/* Kube BG */
+    padding: 50px 0;
+	color:#FFF;
+	background:url(../img/c-s-bg7.jpg) no-repeat top center;
+	background-size: cover;
+	background-color: #ffdd8a;
+}
+.content-section-bg8{/* CHARACTERS LICENSING BG */
+    padding: 50px 0;
+	color:#FFF;
+	background:url(../img/c-s-bg8.jpg) no-repeat top center;
+	background-size: cover;
+	background-color: #ffdd8a;
+}
+
+p.glpblock{
+	text-align: center;
+	font-weight: 100;
+	font-size: 2em;
+	display: block;
+}
+p.glpnone{
+	text-align: center;
+	display: none;
+}
+
+/* 超鏈接-已不用 */
+.label-a-r {/* 標籤右邊距 */
+	margin-right:20px
+}
+.label-a-lr {/* 標籤左右邊距 */
+	margin:0 20px
+}
+.label-a-l {/* 標籤左邊距 */
+	margin-left:20px
+}
+/* 超鏈接-已不用 */
+
+@media \0screen\,screen\9 {/* 只支持IE6、7、8 */
+  .navbar-default {
+	background-color:#fff;
+	border-color:#F4F4F4;
+    filter:Alpha(opacity=0);
+    position:static; /* IE6、7、8只能设置position:static(默认属性) ，否则会导致子元素继承Alpha值 */
+    *zoom:1; /* 激活IE6、7的haslayout属性，让它读懂Alpha */
+  }
+  .navbar-default p{
+    position: relative;/* 设置子元素为相对定位，可让子元素不继承Alpha值 */
+  }  
+}
+
+.navbar-brand {
+	/* padding: 0; */
+}
+.navbar-nav > li > a {
+	/* padding: 0 0px; */
+}
+@media(max-width:767px) {
+	.navbar-brand {
+		float: left;
+		/* margin:8px; */
+	}
+	.navbar-default {
+	background-color:#fff;
+	border-color:#F4F4F4;
+}
+}
+footer {
+    padding: 20px 0;
+    background-color: #FAFAFA;
+}
