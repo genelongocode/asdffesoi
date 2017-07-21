@@ -268,7 +268,7 @@ h2 small a{
 .content-section-bg5{/* Halu BG */
     padding: 50px 0;
 	color:#960;
-	background:url(../img/c-s-bg5.jpg) no-repeat top center;
+	background:url(../img/c-s-bg5.jpg) no-repeat bottom center;
 	background-size: cover;
 	background-color: #ffdd8a;
 }
