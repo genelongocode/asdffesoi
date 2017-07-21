@@ -115,8 +115,9 @@ h6 {
 .banner {
     padding: 60px 0;
     color: #333;
-    background: url(../img/licensing/banner-bg.jpg) no-repeat bottom center;
-    background-size: cover;
+    background: url(../img/licensing/banner-bg.jpg) no-repeat top center;
+	/* background-size: cover; */
+	background-color: #fff;
 }
 
 .banner h2 {
